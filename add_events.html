@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Add New Event</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <a href="index.php">Go back home</a>
+   <center>
+      
+   <div class="wrapper">
+      <h1>Add New Event</h1>
+      <form action="add.php" method="post">
+         <div class="input-box">
+         <p>
+            <label for="Name">Event Name:</label>
+         </p>
+         <p>
+            <input type="text" name="Name" id="Name" required>
+         </p>
+      </div>
+      <div class="input-box">
+         <p>
+            <label for="Date">Date:</label>
+         </p>
+         <p>
+            <input type="date" name="Date" id="Date" required>
+         </p>
+      </div>
+         <div class="input-box">
+         <p>
+            <label for="Time">Time:</label>
+         </p>
+
+         <p>
+            <input type="time" name="Time" id="Time" required>
+         </p>
+      </div>
+         <div class="input-box">
+         <p>
+            <label for="Max_Attendees">Max Attendees:</label>
+         </p>
+         <p>
+            <input type="number" name="Max_Attendees" id="Max_Attendees" required>
+         </p>
+      </div>
+         <div class="input-box">
+         <p>
+            <label for="Location">Location:</label>
+            <input type="text" name="Location" id="Location" required>
+         </p>
+      </div>
+         <div class="input-box">
+         <p>
+            <label for="VIP">VIP PRICE:</label>
+            <input type="number" name="VIP" id="VIP" required>
+         </p>
+      </div>
+         <div class="input-box">
+         <p>
+            <label for="Regular">Regular Price:</label>
+            <input type="number" name="Regular" id="Regular" required>
+         </p>
+      
+      
+         <input type="submit" value="Submit">
+      </form>
+   </div>
+      
+   </center>
+</body>
+</html>

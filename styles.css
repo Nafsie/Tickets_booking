@@ -1,0 +1,104 @@
+/* Global styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width:720px ;
+    height: 500px;
+	background-color: white;
+	border: 2px solid rgba(0, 0, 0, .2);
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	color: gray;
+    font-size: medium;
+	border-radius: 10px;
+	padding: 30px 40px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.detail {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+
+ }
+ .container .btn{
+	width: 100%;
+	height: 45px;
+	background: #fff;
+	border: none;
+	outline: none;
+	border-radius: 40px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	cursor: pointer;
+	font-size: 16px;
+	color: red;
+	font-weight: 600;
+
+}
+.input-box input{
+	width: 30%;
+	height: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border: 2px solid rgba(255, 255, 255, .2);
+	border-radius: 40px;
+	color: whitesmoke;
+}
+.input-box-desc{
+	width: 50%;
+	height: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border: 2px solid rgba(255, 255, 255, .2);
+	border-radius: 40px;
+	color: whitesmoke;
+}
+
+
+.input-box input::placeholder{
+	color: #fff;
+
+}
+.input-box i {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 20px;
+}
+.wrapper{
+	width:420px ;
+	background-image: url(background.jfif) ;
+	border: 2px solid rgba(0, 0, 0, .2);
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	color: #fff;
+	border-radius: 10px;
+	padding: 30px 40px;
+}
+.wrapper h1{
+	font-size: 36px;
+	text-align: center;
+}
